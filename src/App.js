@@ -1,23 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+// import { CookiesProvider } from "react-cookie";
+import "./App.css";
+import ReducerDemo from "./components/ReducerDemo";
+// import UserLogin from "./components/UserLogin";
+// import ContextDemo from "./components/ContextDemo";
+// import { LifeCycleReactHookDemo } from "./components/LifeCycleReactHookDemo";
+// import LifeCycleComponentDemo from "./components/LifeCycleComponentDemo";
+// import ValidationStateComponent from "./components/ValidationStateComponent";
+// import YupComponentWithFormikComponent from "./components/YupComponentWithFormikComponent";
+// import YupValidation from "./components/YupValidation";
+// import FormikValidation from "./components/FormikValidation";
+// import ConditionalRendering from "./components/ConditionalRendering";
+// import FormComponent from "./components/FormComponent";
+// import FormikComponent from "./components/FormikComponent";
+// import ShoppingComponent from "./components/ShoppingComponent";
+// import ShoppingWithProps from "./components/ShoppingWithProps";
+// import EventBinding from './components/EventBinding';
+// import TwoWayBinding from './components/TwoWayBinding';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <header className="App-header">
+        <EventBinding/>
+        <TwoWayBinding/>
+      </header> */}
+      <div>
+        {/* <ShoppingComponent /> */}
+        {/* <ShoppingWithProps /> */}
+        {/* <ConditionalRendering/> */}
+        {/* <FormComponent /> */}
+        {/* <FormikComponent /> */}
+        {/* <FormikValidation /> */}
+        {/* <YupValidation /> */}
+        {/* <YupComponentWithFormikComponent/> */}
+        {/* <ValidationStateComponent/> */}
+        {/* <LifeCycleComponentDemo/> */}
+        {/* <LifeCycleReactHookDemo/> */}
+        {/* <ContextDemo/> */}
+        {/* <CookiesProvider>
+          <UserLogin />
+        </CookiesProvider> */}
+        <ReducerDemo/>
+      </div>
     </div>
   );
 }
