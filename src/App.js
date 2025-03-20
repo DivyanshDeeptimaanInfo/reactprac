@@ -1,6 +1,8 @@
 // import { CookiesProvider } from "react-cookie";
 import "./App.css";
-import ReducerDemo from "./components/ReducerDemo";
+// import CustomHookDemo from "./components/CustomHookDemo";
+import CustomHookDemo2 from "./components/CustomHookDemo2";
+// import ReducerDemo from "./components/ReducerDemo";
 // import UserLogin from "./components/UserLogin";
 // import ContextDemo from "./components/ContextDemo";
 // import { LifeCycleReactHookDemo } from "./components/LifeCycleReactHookDemo";
@@ -40,7 +42,9 @@ function App() {
         {/* <CookiesProvider>
           <UserLogin />
         </CookiesProvider> */}
-        <ReducerDemo/>
+        {/* <ReducerDemo/> */}
+        {/* <CustomHookDemo/> */}
+        <CustomHookDemo2/>
       </div>
     </div>
   );

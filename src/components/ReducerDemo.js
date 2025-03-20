@@ -1,5 +1,4 @@
 import React, { useEffect, useReducer, useState } from "react";
-import {useFetchData} from "../hooks/useFetchData"
 
 let initailState = { likes: 0, dislikes: 0 };
 function reducer(state, action) {
@@ -15,7 +14,6 @@ function reducer(state, action) {
 const ReducerDemo = () => {
   const [state, dispatch] = useReducer(reducer, initailState);
     const [product, setProduct] = useState([]);
-    // const [data]=useFetchData("https://fakestoreapi.com/products/3")
   useEffect(() => {
     fetch("https:fakestoreapi.com/products/2")
       .then((res) => res.json())
