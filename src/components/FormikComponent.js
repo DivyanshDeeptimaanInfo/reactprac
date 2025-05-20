@@ -22,7 +22,7 @@ const FormikComponent = () => {
   return (
     <div className=" container-fluid">
       <form onSubmit={formik.handleSubmit}>
-        <h2>Regiter User</h2>
+        <h2>Register User</h2>
         <dl>
           <dt>User Name</dt>
           <dd className="d-flex justify-content-center">
